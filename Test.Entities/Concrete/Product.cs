@@ -15,7 +15,7 @@ namespace Test.Entities.Concrete
         public decimal Price { get; set; }
         public int Quantity { get; set; }
         public string? Dimension { get; set; }
-        public int ViewCount { get; set; }
+        public int ViewCount { get; set; } = 0;
         public int Star { get; set; }
         public string? MainImage { get; set; }
         public string? Images { get; set; }

@@ -11,6 +11,6 @@ namespace Test.Entities.Concrete
     {
         public string? UserName { get; set; }
         public ICollection<Comment>? Comments { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        public ICollection<Order>? Orders { get; set; }
     }
 }
